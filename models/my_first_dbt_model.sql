@@ -8,7 +8,7 @@
 */
 
 {{ config(materialized='table') }}
-
+-- alteração
 with source_data as (
 
     select 1 as id
